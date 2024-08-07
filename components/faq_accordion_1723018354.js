@@ -3,8 +3,8 @@ Vue.component('faq_accordion_1723018354', {
     <div>
       <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
         <div class="space-y-3 text-center">
-          <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-          <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h1 class="text-4xl text-gray-800 font-semibold pt-10">Mastering iPhone Production</h1>
+          <p class="text-gray-600 max-w-lg mx-auto text-lg">Everything you need to know about manufacturing iPhones</p>
         </div>
         <div class="mt-14 max-w-2xl mx-auto">
           <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -30,24 +30,24 @@ Vue.component('faq_accordion_1723018354', {
       selectedFaq: null,
       faqs: [
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1"
+          q: "What is required to produce iPhones?",
+          a: "Producing iPhones requires state-of-the-art facilities, specialized equipment, trained personnel, and stringent quality control processes. Apple closely guards its manufacturing techniques."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2"
+          q: "Can I manufacture iPhones at home?",
+          a: "No, manufacturing iPhones requires industrial-scale operations that cannot be replicated at home. The components, assembly, and testing must follow Apple's proprietary standards."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3"
+          q: "Where are iPhones made?",
+          a: "Most iPhones are assembled in China by partners like Foxconn, though some production also occurs in India, Brazil, and other countries to meet regional demand."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4"
+          q: "What materials are used in iPhones?",
+          a: "iPhones contain aluminum, glass, stainless steel, and specialized chips and components sourced from suppliers worldwide according to Apple's specifications."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5"
+          q: "How can I get a job making iPhones?",
+          a: "Apple and its manufacturing partners hire personnel for roles in engineering, operations, quality control, and more. Relevant education and experience are required for these highly technical positions."
         }
       ]
     }
